@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!-- кодировка -->
+		<meta charset="utf-8">
+		<!-- картинка сайта -->
+		<link rel="shortcut icon" href="img/example.png">
+		<!-- адаптив под девайсы -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- название сайта -->
+		<title>Take Me</title>
+		<!-- стили -->
+		<link rel="stylesheet" href="css/style.min.css">
+		<!-- подключение шрифов Kaushan Script ( 400 ) и Roboto ( 400, 700 ) -->
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+		<!-- подключение Material Icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- подключение jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- подключение Font Awesome -->
+		<script src="https://kit.fontawesome.com/0466223aa3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class='header__wrapper _wrapper'>
+				<div class="header__logo">TakeMe</div>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li class="header__item"><a href="#" class="header__link">Locations</a></li>
+						<li class="header__item"><a href="#" class="header__link">Accommodation</a></li>
+						<li class="header__item"><a href="#" class="header__link">Travel Guides</a></li>
+						<li class="header__item"><a href="#" class="header__link">Where To Stay</a></li>
+						<li class="header__item"><a href="#" class="header__link">Contact Us</a></li>
+						<li class="header__item"><a href="#" class="header__link">Log In</a></li>
+					</ul>
+				</nav>
+				<div class="header__burger burger">
+					<div class="burger__button">
+						<i class='material-icons' id="menu">menu</i>
+						<i class='material-icons chto _hidden' id="close">close</i>
+					</div>
+					<ul class="burger__list">
+						<li class="burger__item"><a href="" class="burger__link">Locations</a></li>
+						<li class="burger__item"><a href="" class="burger__link">Accommodation</a></li>
+						<li class="burger__item"><a href="" class="burger__link">Travel Guides</a></li>
+						<li class="burger__item"><a href="" class="burger__link">Where To Stay</a></li>
+						<li class="burger__item"><a href="" class="burger__link">Contact Us</a></li>
+						<li class="burger__item"><a href="" class="burger__link">Log In</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section class="location">
+			<div class='location__wrapper _wrapper'>
+				<div class="location__text">
+					<div class="location__title">Find Your Dream Vacation Location</div>
+					<div class="location__subtitle">Search hundreds of locations from around the world and find your perfect vacation location.</div>
+				</div>
+				<form action="" method="get" class="location__forms forms">
+					<div class="forms__item forms__item_1"><input type="text" name="country" placeholder="Country or ZIP code"></div>
+					<div class="forms__item forms__item_2"><select name="transportation"><option value="disabled" selected style="display: none;">Transportation</option><option value="disabled">Ground</option><option value="disabled">Air</option><option value="disabled">Water</option></select></div>
+					<div class="forms__item forms__item_3"><input type="number" name="number" placeholder="Number of people"></div>
+					<div class="forms__item forms__item_4"><button type="submit">Search</button></div>
+				</form>
+			</div>
+		</section>
+		<section class="santorini">
+			<div class='santorini__wrapper _wrapper'>
+				<div class="santorini__content">
+					<div class="santorini__text">
+						<div class="santorini__title">Magical Santorini Greece's Jewel</div>
+						<div class="santorini__subtitle">Candy-colored houses carved into cliffs, sapphire waters, gleaming white buildings topped with half-spheres the color of a stormy sky.</div>
+					</div>
+					<a href="" class="santorini__button">Explore More</a>
+				</div>
+				<div class="santorini__slider slider">
+					<div class="slider__item"><img src="img/santorini1.jpg" alt="" class="slider__picture"></div>
+					<div class="slider__item"><img src="img/santorini2.jpg" alt="" class="slider__picture"></div>
+					<div class="slider__item"><img src="img/santorini3.jpg" alt="" class="slider__picture"></div>
+					<div class="slider__item"><img src="img/santorini4.jpg" alt="" class="slider__picture"></div>
+				</div>
+			</div>
+		</section>
+		<section class="places">
+			<div class='places__wrapper _wrapper'>
+				<div class="places__item">
+					<img src="img/paris.jpg" class="places__picture">
+					<div class="places__text">
+						<div class="places__title">Magical Paris</div>
+						<div class="places__subtitle">City of light, one of the most famous cities in the world is waiting to be explored. Some of the most famous museums, food and landmarks are waiting for you in Paris.</div>
+					</div>
+					<div class="places__rating">
+						<img src="img/star.jpg" class="places__stars">
+						<div class="places__number">2436 Ratings</div>
+					</div>
+				</div>
+				<div class="places__item">
+					<img src="img/london.jpg" class="places__picture">
+					<div class="places__text">
+						<div class="places__title">Classic London</div>
+						<div class="places__subtitle">City of history, one of the most famous cities in the world is waiting to be explored. Some of the most famous museums, food, pubs and landmarks are waiting for you in London.</div>
+					</div>
+					<div class="places__rating">
+						<img src="img/star.jpg" class="places__stars">
+						<div class="places__number">5438 Ratings</div>
+					</div>
+				</div>
+				<div class="places__item">
+					<img src="img/newyork.jpg" class="places__picture">
+					<div class="places__text">
+						<div class="places__title">Famous New York</div>
+						<div class="places__subtitle">City of fashion and yellow cabs, one of the most famous cities in the world is waiting to be explored. Some of the most famous museums, food and landmarks are waiting for you in New York.</div>
+					</div>
+					<div class="places__rating">
+						<img src="img/star.jpg" class="places__stars">
+						<div class="places__number">1243 Ratings</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subscribe">
+			<div class='subscribe__wrapper _wrapper'>
+				<div class="subscribe__text">
+					<div class="subscribe__title">Subscribe to our newsletter</div>
+					<div class="subscribe__subtitle">And receive all the latest news, discounts and updates about the most visitedlocations from around the globe, daily.</div>
+				</div>
+				<a href="" class="subscribe__button">Subscribe</a>
+			</div>
+		</section>
+		<section class="contact">
+			<div class='contact__wrapper _wrapper'>
+				<div class="contact__content">
+					<div class="contact__title">Contact Us</div>
+					<form action="" method="get" class="contact__forms">
+						<div class="contact__item"><span>First Name</span><input type="text" name="first-name" placeholder="First Name"></div>
+						<div class="contact__item"><span>Last Name</span><input type="text" name="last-name" placeholder="Last Name"></div>
+						<div class="contact__item"><span>Email</span><input type="email" name="email" placeholder="Email"></div>
+						<div class="contact__item"><span>Phone</span><input type="tel" name="phone" placeholder="Phone"></div>
+						<div class="contact__item"><span>Message</span><textarea name="message" style="resize: none" placeholder="Your message"></textarea></div>
+						<button type="submit">Send</button>
+					</form>
+				</div>
+			</div>
+			<img src="img/contact.jpg" class="contact__picture">
+		</section>
+		<section class="feedback">
+			<div class='feedback__wrapper _wrapper'>
+				<div class="feedback__top">
+					<div class="feedback__reviews">
+						Reviews(256)
+					</div>
+					<div class="feedback__sort">
+						<form action="" method="get">
+							<div>
+								<select name="sort">
+									<option value="disabled" selected style="display: none">Sort</option>
+									<option value="pop">Popularities</option>
+									<option value="alph">Alphabetically</option>
+									<option value="views">Views</option>
+								</select>
+							</div>
+						</form>
+						<a href="" class="feedback__sort_button">Post A Reviews</a>
+					</div>
+				</div>
+				<div class="feedback__content">
+					<div class="feedback__item">
+						<div class="feedback__user">
+							<img src="img/avatar.jpg" class="feedback__avatar">
+							<div class="feedback__name"><div><p>Anna Marksson</p><p>Visited Las Vegas</p></div><img src="img/star.jpg"></div>
+						</div>
+						<div class="feedback__text">
+							<div class="feedback__date"><p>We had a lovely time</p><p>02.17.2020</p></div>
+							<div class="feedback__comment">“I don’t know where to start. It was simply amazing! From the time we got there to the staff at our hotel, to our Uber driver, to the meals at our restaurant, i can’t wait until we visit Las Vegas again!”</div>
+						</div>
+					</div>
+					<div class="feedback__item">
+						<div class="feedback__user">
+							<img src="img/avatar-2.jpg" class="feedback__avatar">
+							<div class="feedback__name"><div><p>Edward Signim</p><p>Visited Rome</p></div><img src="img/star.jpg"></div>
+						</div>
+						<div class="feedback__text">
+							<div class="feedback__date"><p>Magical Rome!</p><p>02.16.2020</p></div>
+							<div class="feedback__comment">Everybody knows how much history this city has, but we were not prepared by just how much it is! At every single corner you can find a piece of history that is there for thousands of years. If you didn’t visit, what you are waiting for?”</div>
+						</div>
+					</div>
+					<div class="feedback__item">
+						<div class="feedback__user">
+							<img src="img/avatar-3.jpg" class="feedback__avatar">
+							<div class="feedback__name"><div><p>Jenna Miles</p><p>Visited Belgrade</p></div><img src="img/star.jpg"></div>
+						</div>
+						<div class="feedback__text">
+							<div class="feedback__date"><p>Where Sava meets Danube</p><p>02.15.2020</p></div>
+							<div class="feedback__comment">“This city is nothing what i expected. Such a lively place, full of color, wonderful people and fantastic food. Service is lovely and my tour guide showed me much more than it was planned, simply because he is amazing at his job! I can’t wait to go back!”</div>
+						</div>
+					</div>
+					<div class="feedback__item">
+						<div class="feedback__user">
+							<img src="img/avatar-4.jpg" class="feedback__avatar">
+							<div class="feedback__name"><div><p>Anna Marksson</p><p>Visited Tahiti</p></div><img src="img/star.jpg"></div>
+						</div>
+						<div class="feedback__text">
+							<div class="feedback__date"><p>Jonathan Bright</p><p>02.14.2020</p></div>
+							<div class="feedback__comment">“When we got there it was raining, but after it stopped, it was lovely! Temperature is pleasant and i loved their free wifi zones. If you have, bring your camera because you are going to need it, a lot.”</div>
+						</div>
+					</div>
+				</div>
+				<a href="" class="feedback__button">Load More</a>
+			</div>
+		</section>
+		<footer class='footer'>
+			<div class='footer__wrapper _wrapper'>
+				<div class="footer__top">
+					<div class="footer__links">
+						<div class="footer__links_item">
+							<div class="footer__links_title">Company</div>
+							<a href="" class="footer__link">About Us</a>
+							<a href="" class="footer__link">Careers</a>
+							<a href="" class="footer__link">Contact Us</a>
+							<a href="" class="footer__link">Affilates</a>
+							<a href="" class="footer__link">News</a>
+							<a href="" class="footer__link">Our App</a>
+							<a href="" class="footer__link">Site Map</a>
+						</div>
+						<div class="footer__links_item">
+							<div class="footer__links_title">Useful Links</div>
+							<a href="" class="footer__link">Travel Safe</a>
+							<a href="" class="footer__link">Stay Healthy</a>
+							<a href="" class="footer__link">Flight Monitor</a>
+							<a href="" class="footer__link">Booking List</a>
+							<a href="" class="footer__link">Lost Lugage</a>
+							<a href="" class="footer__link">World Clock</a>
+						</div>
+						<div class="footer__links_item">
+							<div class="footer__links_title">For Companies</div>
+							<a href="" class="footer__link">Advertise With Us</a>
+							<a href="" class="footer__link">How It Works</a>
+							<a href="" class="footer__link">Pricing Models</a>
+							<a href="" class="footer__link">VAT Numbers</a>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<div class="footer__links_title">Stay in Touch</div>
+						<form action="" method="get" class="footer__forms">
+							<input type="email" name="Femail" placeholder="Your Email">
+							<button type="submit">Subscribe</button>
+						</form>
+						<div class="footer__social">
+							<a href="" class="footer__social_item footer__social_item_1"></a>
+							<a href="" class="footer__social_item footer__social_item_2"></a>
+							<a href="" class="footer__social_item footer__social_item_3"></a>
+							<a href="" class="footer__social_item footer__social_item_4"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copyright">
+						© 2017 TakeMe Free UI Kit
+					</div>
+					<div class="footer__bottom_links">
+						<a href="" class="footer__bottom_link">Privacy Policy</a>
+						<a href="" class="footer__bottom_link">Terms of Use</a>
+						<a href="" class="footer__bottom_link">Cookies Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- файл скриптов -->
+		<script src="js/script.min.js"></script>
+	</body>
+</html>
